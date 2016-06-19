@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -8,9 +9,49 @@ img {
 }
 
 body {
-    margin-top:40px;    
-    background-image:url(../img/back.png);
+    margin-top:40px;
+    background-color: #fff;    
+
 }
+
+.header {
+
+} 
+
+.mainimg {
+    background: #80a096 url(../img/main.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+    text-align: center;
+    line-height: normal;
+    color: #fff;
+}
+
+.skills {
+    border: 1px solid black;
+    display: block;
+
+}
+
+.skill {
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100px;
+    background-color: white;
+}
+.skill_title {
+    border-bottom: .5px solid black;
+}
+
+.footer {
+    clear: both;
+}
+
 
 .options {
     position:fixed;
